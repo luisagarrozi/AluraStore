@@ -4,49 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Alura Store | Baixe nossos aplicativos e jogos</title>
+    <title>Agência Alura | Viagens e Destinos Turísticos</title>
     <link href="./assets/css/normalize.css" rel="stylesheet" />
     <link href="./assets/css/reset.css" rel="stylesheet" />
     <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="./assets/css/destaques.css" rel="stylesheet" />
+    <link href="./assets/css/populares.css" rel="stylesheet" />
+    <link href="./assets/css/menu.css" rel="stylesheet" />
   </head>
 
   <body class="app">
     <header class="cabecalho">
       <nav class="menu">
         <ul class="menu__lista">
-            <li class="menu__item">
-                <a class="menu__link ativo" href="#">
-                    <i class="fas fa-home"></i>
-                    Início
-                </a>
-                <a class="menu__link" href="#">
-                    <i class="fas fa-mobile-alt"></i>
-                    Aplicativos</a>
-                <a class="menu__link" href="#">
-                    <i class="fas fa-gamepad"></i>
-                    Jogos
-                </a>
-            </li>
+          <li class="menu__item">
+            <a class="menu__link ativo" href="#">
+              <i class="fas fa-home"></i>
+              Início
+            </a>
+            <!--Pra trocar os emojis, pegar novos em 
+              https://fontawesome.com/v5.15/icons?d=gallery e substituir o <i>-->>
+            <a class="menu__link" href="#">
+              <i class="fas fa-globe-americas"></i>
+              Destinos</a
+            >
+            <a class="menu__link" href="#">
+              <i class="fas fa-plane-departure"></i>
+              Pacotes
+            </a>
+          </li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
     <main class="conteudo">
       <section class="destaques">
         <div class="destaques__principal caixa">
-          <h3 class="destaques__titulo">Fortnite</h3>
+          <h3 class="destaques__titulo">Paris</h3>
         </div>
         <div class="destaques__secundario caixa">
-          <h3 class="destaques__titulo">PUBG</h3>
+          <h3 class="destaques__titulo">Nova Zelândia</h3>
         </div>
         <div class="destaques__secundario caixa">
-          <h3 class="destaques__titulo">Slack</h3>
+          <h3 class="destaques__titulo">Turquia</h3>
         </div>
         <div class="destaques__secundario caixa">
-          <h3 class="destaques__titulo">Whatsapp</h3>
+          <h3 class="destaques__titulo">Bora Bora</h3>
         </div>
         <div class="destaques__secundario caixa">
-          <h3 class="destaques__titulo">CS: GO</h3>
+          <h3 class="destaques__titulo">Londres</h3>
         </div>
         <div class="destaques__categorias">
           <ul class="destaques__categorias___lista">
@@ -55,13 +60,13 @@
                 <i
                   class="destaques__categorias___icone fab fa-buromobelexperte"
                 ></i>
-                Aplicativos populares
+                Destinos populares
               </a>
             </li>
             <li class="destaques__categorias___item">
               <a class="destaques__categorias___link" href="#">
                 <i class="fas fa-list-ol"></i>
-                Jogos populares
+                Países populares
               </a>
             </li>
             <li class="destaques__categorias___item">
@@ -86,7 +91,7 @@
             <div class="populares__cabecalho">
               <h4 class="populares__titulo">
                 <i class="populares__icone fab fa-buromobelexperte"></i>
-                Aplicativos populares
+                Destinos populares
               </h4>
               <button class="populares__botao">
                 <i class="fas fa-th"></i>
@@ -98,105 +103,90 @@
             <div class="populares__card">
               <img
                 class="populares__card___imagem"
-                src="./assets/img/slack.png"
+                src="./assets/img/borabora.jpg"
               />
               <div class="populares__card___corpo">
                 <div class="populares__card___cabecalho">
-                  <h5 class="populares__card___titulo">Slack</h5>
-                  <time class="populares__card___data" datetime="2013-08-01"
-                    >08/2013</time
-                  >
+                  <h5 class="populares__card___titulo">Bora Bora</h5>
+                  <div class="populares__card___pais">Polinésia Francesa</div>
                 </div>
                 <div class="populares__card___descricao">
-                  Traduzido do inglês-O Slack é um conjunto baseado em nuvem de
-                  ferramentas e serviços proprietários de colaboração em equipe,
-                  fundado por Stewart Butterfield. O Slack começou como uma
-                  ferramenta interna usada por sua empresa, Tiny Speck, no
-                  desenvolvimento do Glitch, um jogo online agora extinto.
+                  O que a ilha de Bora Bora tem de tão especial? Lagoas azuis,
+                  praias de águas cristalinas, corais perfeitos para serem
+                  vistos em mergulhos, resorts de luxo e bangalôs que flutuam no
+                  mar. É daqueles lugares para ir e não se cansar de ver a
+                  paisagem!
                 </div>
               </div>
             </div>
             <div class="populares__card">
               <img
                 class="populares__card___imagem"
-                src="./assets/img/whatsapp.png"
+                src="./assets/img/paris.jpg"
               />
               <div class="populares__card___corpo">
                 <div class="populares__card___cabecalho">
-                  <h5 class="populares__card___titulo">Whatsapp</h5>
-                  <time class="populares__card___data" datetime="20090-01-01"
-                    >2009</time
-                  >
+                  <h5 class="populares__card___titulo">Paris</h5>
+                  <div class="populares__card___pais">França</div>
                 </div>
                 <div class="populares__card___descricao">
-                  WhatsApp é um aplicativo multiplataforma de mensagens
-                  instantâneas e chamadas de voz para smartphones. Além de
-                  mensagens de texto, os usuários podem enviar imagens, vídeos e
-                  documentos em PDF, além de fazer ligações grátis por meio de
-                  uma conexão com a internet.
+                  É impossível não se render aos encantos da capital francesa. A
+                  cidade é vibrante, charmosa, divertida, berço da cultura e da
+                  arte… enfim, é infindável lista de qualidades!
                 </div>
               </div>
             </div>
             <div class="populares__card">
               <img
                 class="populares__card___imagem"
-                src="./assets/img/telegram.jpeg"
+                src="./assets/img/london.jpg"
               />
               <div class="populares__card___corpo">
                 <div class="populares__card___cabecalho">
-                  <h5 class="populares__card___titulo">Telegram</h5>
-                  <time class="populares__card___data" datetime="2013-08-14"
-                    >14/08/2013</time
-                  >
+                  <h5 class="populares__card___titulo">Londres</h5>
+                  <div class="populares__card___pais">Inglaterra</div>
                 </div>
                 <div class="populares__card___descricao">
-                  O Telegram é um serviço de mensagens instantâneas baseado na
-                  nuvem. O Telegram está disponível para smartphones ou tablets,
-                  computadores e também como Aplicação web. Os usuários podem
-                  enviar mensagens e trocar fotos, vídeos, stickers e arquivos
-                  de qualquer tipo.
+                  Às margens do Rio Tâmisa, Londres abriga o Big Ben e tantos
+                  outros cartões-postais famosos, como a ponte da Torre de
+                  Londres, o palácio de Buckingham e a Abadia de Westminster. É
+                  daqueles destinos perfeitos para ir e voltar várias vezes.
                 </div>
               </div>
             </div>
             <div class="populares__card">
               <img
                 class="populares__card___imagem"
-                src="./assets/img/trello.jpg"
+                src="./assets/img/canyon.jpg"
               />
               <div class="populares__card___corpo">
                 <div class="populares__card___cabecalho">
-                  <h5 class="populares__card___titulo">Trello</h5>
-                  <time class="populares__card___data" datetime="2011-01-01"
-                    >2011</time
-                  >
+                  <h5 class="populares__card___titulo">Grand Canyon</h5>
+                  <div class="populares__card___pais">Estados Unidos</div>
                 </div>
                 <div class="populares__card___descricao">
-                  Trello é um aplicativo de gerenciamento de projeto baseado na
-                  web originalmente feito por Fog Creek Software em 2011. Em
-                  2014 tornou-se uma empresa. Ele opera um modelo de negócio
-                  Freemium, no qual é disponibilizado a versão gratuita ou paga
-                  para o usuário.
+                  O Grand Canyon é um dos destinos mais procurados pelos
+                  turistas que estão em Las Vegas e que buscam passeios de
+                  natureza. Os paredões rochosos e as belas paisagens são o ponto
+                  alto de uma visita ao Grand Canyon.
                 </div>
               </div>
             </div>
             <div class="populares__card">
               <img
                 class="populares__card___imagem"
-                src="./assets/img/skype.png"
+                src="./assets/img/roma.jpg"
               />
               <div class="populares__card___corpo">
                 <div class="populares__card___cabecalho">
-                  <h5 class="populares__card___titulo">Skype</h5>
-                  <time class="populares__card___data" datetime="2003-08-01"
-                    >08/2003</time
-                  >
+                  <h5 class="populares__card___titulo">Roma</h5>
+                  <div class="populares__card___pais">Itália</div>
                 </div>
                 <div class="populares__card___descricao">
-                  Skype é um software que permite comunicação pela Internet
-                  através de conexões de voz e vídeo, criado por Janus Friis e
-                  Niklas Zennstrom. O Skype foi lançado no ano de 2003. Em 2005
-                  foi vendido para a empresa eBay e pertence, desde maio de
-                  2011, à Microsoft.
+                  Roma é um destino que não precisa de muito tempo para nos
+                  conquistar. Com museus, excelentes restaurantes, bom
+                  transporte público e variedade de pontos turísticos, a capital
+                  italiana é a mistura da tradição e da inovação.
                 </div>
               </div>
             </div>
@@ -207,7 +197,7 @@
             <div class="populares__cabecalho">
               <h4 class="populares__titulo">
                 <i class="populares__icone fas fa-list-ol"></i>
-                Jogos populares
+                Países populares
               </h4>
               <button class="populares__botao">
                 <i class="fas fa-th"></i>

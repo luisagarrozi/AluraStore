@@ -25,37 +25,37 @@
 
 .destaques__principal {
     /* background: url (imagem) alinhamento (center) tamanho (cover) repetição (no-repeat)*/
-    background-image: url("img/fortnite.jpg");
+    background-image: url("img/paris.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   grid-column-start: 1;
   /* Colocar o end uma coluna ou linha APÓS o que quer, porque ele vai ATÉ aquela, ele não preenche ela */
-  grid-column-end: 4;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
 }
 
 .destaques__secundario:nth-child(2) {
-background-image: url("img/pubg.jpg");
+background-image: url("img/newzealand.jpg");
 background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  grid-column: 4 / 4;
+  grid-column: 3 / 5;
   grid-row: 1 / 1;
 }
 
 .destaques__secundario:nth-child(3) {
-    background-image: url("img/slack.png");
+    background-image: url("img/turkey.jpg");
     background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-  grid-column: 4 / 4;
+  grid-column: 3 / 5;
   grid-row: 2 / 2;
 }
 
 .destaques__secundario:nth-child(4) {
-    background-image: url("img/whatsapp.png");
+    background-image: url("img/borabora.jpg");
     background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -64,7 +64,7 @@ background-repeat: no-repeat;
 }
 
 .destaques__secundario:nth-child(5) {
-  background: url("img/cs-go.jpg") center / cover no-repeat;
+  background: url("img/london.jpg") center / cover no-repeat;
   grid-row: 3 / 3;
   grid-column: 3 / 3;
 }
