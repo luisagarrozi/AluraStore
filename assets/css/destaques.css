@@ -29,9 +29,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  grid-column-start: 1;
-  /* Colocar o end uma coluna ou linha APÓS o que quer, porque ele vai ATÉ aquela, ele não preenche ela */
-  grid-column-end: 3;
+
   grid-row-start: 1;
   grid-row-end: 3;
 }
@@ -41,8 +39,6 @@ background-image: url("img/newzealand.jpg");
 background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  grid-column: 3 / 5;
-  grid-row: 1 / 1;
 }
 
 .destaques__secundario:nth-child(3) {
@@ -50,8 +46,6 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-  grid-column: 3 / 5;
-  grid-row: 2 / 2;
 }
 
 .destaques__secundario:nth-child(4) {
@@ -59,14 +53,10 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-  grid-column: 4 / 4;
-  grid-row: 3 / 3;
 }
 
 .destaques__secundario:nth-child(5) {
   background: url("img/london.jpg") center / cover no-repeat;
-  grid-row: 3 / 3;
-  grid-column: 3 / 3;
 }
 
 
